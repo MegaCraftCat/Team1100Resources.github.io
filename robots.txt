@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://MegaCraftCat.github.io/team1100Resources/sitemap.xml
