@@ -8,7 +8,7 @@ const topbarHTML = `
       <div class="dropdown">
         <button class="dropbtn">Home</button>
         <div class="dropdown-content">
-          <a href="#">What is this Website?</a>
+          <a href="index.html">What is this Website?</a>
           <a href="#">About Team 1100</a>
           <a href="#">How to maintain this website</a>
         </div>
@@ -18,7 +18,7 @@ const topbarHTML = `
       <div class="dropdown">
         <button class="dropbtn">Software</button>
         <div class="dropdown-content">
-          <a href="#">Getting Started with WPILib</a>
+          <a href="wpilibSetup.html">Getting Started with WPILib</a>
           <a href="#">Subsystems</a>
           <a href="#">Commands</a>
         </div>

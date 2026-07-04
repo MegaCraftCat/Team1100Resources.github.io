@@ -3,7 +3,7 @@
 const softwareGettingStartedSidebarHTML = `
   <!-- Left Sidebar -->
   <aside id="sidebar_left">
-    <h1>Navigation</h1>
+    <h1>Pages</h1>
     <ul>
       <li>
         <a href="https://github.com/">Learning Java</a>

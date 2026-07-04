@@ -1,6 +1,7 @@
 :root { /* muh variables :3 */
   --top-bar-size: 40px;
   --top-button-height: 30px;
+  --border-color: rgb(148, 23, 23);
 }
 
 * {
@@ -38,12 +39,15 @@ a {
   overflow-y: auto;
   width: 180px; /* Set a reliable width */
   position: fixed;
-  height: calc(100% - var(--top-bar-size)); 
+  height: 1100%; 
   background: #f0f0f0;
   border-right: 1px #aaa solid;
-  top: var(--top-bar-size); /* Positioned directly under topbar */
+  top: 0; /* Positioned directly under topbar */
   left: 0px;
   padding: 20px 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--border-color);
 }
 
 #sidebar_left h1 {
@@ -100,11 +104,14 @@ a {
   top: 0;
   left: 0;
   z-index: 1000;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--border-color);
 }
 
 
 .dropbtn {
-  background-color: #ff0000;
+  background-color: #740707;
   color: white;
   padding: 0 16px; 
   height: var(--top-button-height);
@@ -153,5 +160,5 @@ a {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+  background-color: #e4c515;
 }
